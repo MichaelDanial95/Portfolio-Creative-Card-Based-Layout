@@ -1,0 +1,33 @@
+[
+  {
+    "title": "First project : Classic Portfolio",
+    "description": "Clean and professional layout using Tailwind & AOS.",
+    "image": "assets/img/projects/project1/1.gif",
+    "link": "#",
+    "gallery": [
+      "assets/img/projects/project1/1.gif",
+      "assets/img/projects/project1/2.png",
+      "assets/img/projects/project1/3.png",
+      "assets/img/projects/project1/4.png"
+    ]
+  },
+  {
+    "title": "This Project : Creative Scroll",
+    "description": "One-page scroll layout with smooth section transitions.",
+    "image": "assets/img/projects/project2/1.gif",
+    "link": "#",
+    "gallery": [
+      "assets/img/projects/project2/1.gif",
+      "assets/img/projects/project2/2.jpg",
+      "assets/img/projects/project2/3.jpg",
+      "assets/img/projects/project2/4.jpg"
+    ]
+  },
+  {
+    "title": "Next Project : Dark Mode Layout",
+    "description": "Modern dark-themed design with elegant animations.",
+    "image": "assets/img/projects/project2.png",
+    "link": "#",
+    "gallery": []
+  }
+]

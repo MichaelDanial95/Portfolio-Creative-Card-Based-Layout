@@ -1,0 +1,338 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+nav .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  color: #fc466b;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #fc466b;
+}
+
+section {
+  padding: 6rem 1.5rem 4rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+  .animate-intro-animation {
+  animation: introAnim 3.5s ease-in-out forwards;
+  transform-style: preserve-3d;
+  }
+  
+  .animate-avatar-fade {
+  animation: avatarFadeIn 1s ease-in-out 3.5s forwards;
+  }
+  
+
+
+  .avatar-wrapper {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .avatar-front {
+    z-index: 2;
+  }
+  
+  .avatar-back {
+    z-index: 1;
+    opacity: 0;
+  }
+  
+
+.hero {
+  background: linear-gradient(to right, #fc466b, #3f5efb);
+  color: white;
+  text-align: center;
+  padding: 8rem 2rem 5rem;
+}
+
+
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  color: #f1f1f1;
+  margin-bottom: 1rem;
+}
+
+.buttons a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.download {
+  background-color: white;
+  color: #fc466b;
+  border: 1px solid #fc466b;
+}
+
+.download:hover {
+  background-color: #f3f3f3;
+}
+
+.whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+
+.whatsapp:hover {
+  background-color: #1ebe5d;
+}
+
+h3.section-title {
+  text-align: center;
+  font-size: 1.75rem;
+  color: #fc466b;
+  margin-bottom: 2rem;
+}
+
+
+
+
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.button.download {
+  background-color: white;
+  color: #fc466b;
+  border: 1px solid #fc466b;
+}
+
+.button.download:hover {
+  background-color: #f8f8f8;
+}
+
+.button.whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+
+.button.whatsapp:hover {
+  background-color: #1ebe5d;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  border-color: #fc466b;
+  outline: none;
+  box-shadow: 0 0 0 2px #fc466b33;
+}
+
+button[type="submit"] {
+  background-color: #fc466b;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 0.75rem;
+  border-radius: 6px;
+}
+
+button[type="submit"]:hover {
+  background-color: #e64956;
+}
+
+
+.card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  border-radius: 8px;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border: 2px solid #f1f1f1;
+}
+
+#projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 في السطر */
+  gap: 1rem; /* المسافة بينهم */
+  max-width: 800px;
+  margin: auto;
+}
+
+.skills-grid span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  padding: 8px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #666;
+  font-size: 0.9rem;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes introAnim {
+  0% {
+  transform: scale(1.2) rotateY(0deg);
+  opacity: 1;
+  }
+  50% {
+  transform: scale(1) rotateY(90deg);
+  opacity: 1;
+  }
+  90% {
+  transform: scale(0.95) rotateY(180deg);
+  opacity: 0.2;
+  }
+  100% {
+  opacity: 0;
+  }
+  }
+  
+  @keyframes avatarFadeIn {
+  0% {
+  opacity: 0;
+  transform: scale(0.95);
+  }
+  100% {
+  opacity: 1;
+  transform: scale(1);
+  }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

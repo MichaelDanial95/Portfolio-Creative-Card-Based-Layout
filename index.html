@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Danial - Creative Portfolio</title>
+    <meta
+      name="description"
+      content="Creative Portfolio of Michael Danial — Full Stack Developer & Designer."
+    />
+    <meta
+      name="keywords"
+      content="Michael Danial, Portfolio, Developer, Web Developer, Programmer, Egypt"
+    />
+    <meta name="author" content="Michael Danial" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Michael Danial - Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore creative projects and web applications by Michael Danial."
+    />
+    <meta property="og:image" content="assets/img/avatar.jpg" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Michael Danial - Developer Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Explore creative projects and web applications by Michael Danial."
+    />
+    <meta name="twitter:image" content="assets/img/avatar.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/logo.png" type="image/png" />
+
+    <!-- Styles & Scripts -->
+    <script src="assets/js/tailwindcss.js"></script>
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+    <script src="assets/js/aos.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="container">
+        <h1>Michael Danial</h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <!-- Hero -->
+    <section class="hero">
+      <div class="avatar-wrapper">
+        <img
+          src="assets/img/logo.png"
+          alt="Intro Logo"
+          class="avatar avatar-front animate-intro-animation"
+        />
+        <img
+          src="assets/img/avatar.jpg"
+          alt="Michael Danial"
+          class="avatar avatar-back animate-avatar-fade"
+        />
+      </div>      
+      <h2>Hi, I'm Michael Danial</h2>
+      <p>Full Stack Developer & Designer</p>
+      <div class="buttons">
+        <a href="#" class="download"
+          ><i class="fas fa-download"></i> Download CV</a
+        >
+        <a href="https://wa.me/201095161434" class="whatsapp"
+          ><i class="fab fa-whatsapp"></i> WhatsApp Me</a
+        >
+      </div>
+    </section>
+    <!-- Sections -->
+    <section id="about" class="section">
+      <h3 class="section-title">👨‍💻 About Me</h3>
+      <p>
+        I’m Michael Danial, a passionate full stack developer from Egypt. I
+        enjoy building elegant and responsive websites, developing immersive
+        experiences, and creating efficient backend systems.
+      </p>
+    </section>
+
+    <section id="skills" class="section bg-gray-50">
+      <h3 class="section-title">🛠 Skills</h3>
+      <div class="grid grid-cols-3 sm:grid-cols-3 gap-5 text-gray-700">
+
+        <span><i class="fas fa-code" style="color: #5c6bc0"></i> C#</span>
+        <span
+          ><i class="fas fa-mobile-alt" style="color: #42a5f5"></i>
+          Flutter</span
+        >
+        <span
+          ><i class="fas fa-globe" style="color: #6c757d"></i> Web Design</span
+        >
+        <span
+          ><i class="fas fa-database" style="color: #00618a"></i> SQL
+          Server</span
+        >
+        <span
+          ><i class="fas fa-database" style="color: #ff6f61"></i> SQLite</span
+        >
+        <span
+          ><i class="fab fa-laravel" style="color: #f55247"></i> Laravel</span
+        >
+        <span
+          ><i class="fas fa-cloud" style="color: #00bcd4"></i> Livewire /
+          Jetstream</span
+        >
+        <span
+          ><i class="fab fa-bootstrap" style="color: #563d7c"></i>
+          Bootstrap</span
+        >
+        <span><i class="fab fa-vuejs" style="color: #41b883"></i> Vue.js</span>
+        <span
+          ><i class="fab fa-js-square" style="color: #f7df1e"></i>
+          JavaScript</span
+        >
+        <span><i class="fab fa-php" style="color: #8892be"></i> PHP</span>
+
+    </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h3 class="section-title">📁 Projects</h3>
+      <div
+        id="projectGrid"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+      >
+        <!-- Projects will load here -->
+      </div>
+    </section>
+
+    <section id="contact" class="section bg-gray-50">
+      <h3 class="section-title">📫 Contact Me</h3>
+      <form class="grid grid-cols-1 gap-4 mb-8">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      © 2025
+      <a href="https://www.facebook.com/Mikha.Daniel1995">
+        <img
+          src="assets/img/logo.png"
+          alt="Logo"
+          width="20"
+          height="20"
+          class="inline-block rounded-full"
+        />
+        Michael Danial </a
+      >. All rights reserved.
+    </footer>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
