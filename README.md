@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎨 Creative Card-Based Layout
 
 Welcome to my personal portfolio website!  
@@ -27,9 +28,9 @@ I create modern, responsive web experiences and design interfaces inspired by my
 ## 📸 Preview
 
 ![Hero Section](assets/img/projects/project2/1.gif)
-![Hero Section](assets/img/projects/project2/2.jpg)
-![Hero Section](assets/img/projects/project2/3.jpg)
-![Hero Section](assets/img/projects/project2/4.jpg)
+![Hero Section2](assets/img/projects/project2/2.jpg)
+![Hero Section3](assets/img/projects/project2/3.jpg)
+![Hero Section4](assets/img/projects/project2/4.jpg)
 ---
 
 ## 🛠️ Built With
@@ -91,3 +92,4 @@ You are free to use, share, and modify — with credit appreciated ❤️
 
 > Built with love, passion, and a lot of coffee ☕ by   **Michael Danial**<br>
  <img src="assets/img/logo2.png" alt="Logo" width="30" height="30" class="inline-block rounded-full" />
+=======
