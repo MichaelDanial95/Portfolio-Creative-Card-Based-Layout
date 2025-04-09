@@ -92,4 +92,4 @@ You are free to use, share, and modify — with credit appreciated ❤️
 
 > Built with love, passion, and a lot of coffee ☕ by   **Michael Danial**<br>
  <img src="assets/img/logo2.png" alt="Logo" width="30" height="30" class="inline-block rounded-full" />
-=======
+
